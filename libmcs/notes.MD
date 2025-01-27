@@ -31,8 +31,8 @@ demo
 # Examples 
 
 - [libm/mathf/acosf](libm_mathf_acosf.jpg): C and Rust source comparison
-- [libm/mathf/rintf] (libm_mathf_rinf.jpg): C and Rust source comparison
-- [libm/mathd/atan2d] (libm_mathd_atan2d.jpg): C and Rust source comparison
+- [libm/mathf/rintf](libm_mathf_rinf.jpg): C and Rust source comparison
+- [libm/mathd/atan2d](libm_mathd_atan2d.jpg): C and Rust source comparison
 
 
 
