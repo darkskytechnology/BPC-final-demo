@@ -1,0 +1,2117 @@
+root = "/home/coder/Documents/GitHub/libmcs"
+compiler = "/usr/bin/gcc"
+ignores = []
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/frexpd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/frexpd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/fmad.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/fmad.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/lgammad.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/lgammad.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/internal/gammad.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/rintf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/rintf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/fmaxf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/fmaxf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/nextafterd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/nextafterd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/truncd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/truncd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/log1pf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/log1pf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/internal/log1pmff.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/asinhf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/asinhf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/j1d.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/j1d.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/internal/besseld.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/copysignf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/copysignf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/erfcd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/erfcd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/internal/errorfunctiond.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/sinhf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/sinhf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/fabsd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/fabsd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/atanhf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/atanhf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/internal/fpclassifyd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/internal/fpclassifyd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/ceild.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/ceild.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/cbrtd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/cbrtd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/atan2f.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/atan2f.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/fmaxd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/fmaxd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/roundf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/roundf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/tanhd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/tanhd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/logd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/logd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/llroundd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/llroundd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/internal/trigf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/internal/trigf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/internal/trigf.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/ynd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/ynd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/internal/besseld.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/remquod.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/remquod.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/tanhf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/tanhf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/erfcf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/erfcf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/internal/errorfunctionf.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/acosd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/acosd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/frexpf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/frexpf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/j0d.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/j0d.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/internal/besseld.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/floord.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/floord.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/acoshd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/acoshd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/floorf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/floorf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/log2d.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/log2d.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/internal/log1pmfd.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/atanhd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/atanhd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/ceilf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/ceilf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/modfd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/modfd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/rintd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/rintd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/truncf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/truncf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/lgammaf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/lgammaf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/internal/gammaf.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/nearbyintf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/nearbyintf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/internal/fpclassifyf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/internal/fpclassifyf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/log2f.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/log2f.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/internal/log1pmff.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/sqrtd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/sqrtd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/fdimf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/fdimf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/scalblnf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/scalblnf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/nexttowardd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/nexttowardd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/lroundd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/lroundd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/acosf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/acosf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/sind.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/sind.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/internal/trigd.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/expf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/expf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/common/tools.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/sqrtf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/sqrtf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/acoshf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/acoshf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/sinhd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/sinhd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/asind.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/asind.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/atand.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/atand.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/tand.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/tand.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/internal/trigd.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/fmodd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/fmodd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/nexttowardf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/nexttowardf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/asinhd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/asinhd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/fmodf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/fmodf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/tgammaf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/tgammaf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/internal/gammaf.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/nand.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/nand.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/scalbnd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/scalbnd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/remquof.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/remquof.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/remainderf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/remainderf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/scalbnf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/scalbnf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/jnd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/jnd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/internal/besseld.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/remainderd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/remainderd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/cbrtf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/cbrtf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/internal/trigd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/internal/trigd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/internal/trigd.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/lroundf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/lroundf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/log1pd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/log1pd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/internal/log1pmfd.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/internal/gammaf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/internal/gammaf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/internal/gammaf.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/internal/trigf.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/tgammad.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/tgammad.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/internal/gammad.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/expm1f.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/expm1f.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/scalblnd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/scalblnd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/fmind.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/fmind.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/logbf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/logbf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/fabsf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/fabsf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/common/signgam.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/common/signgam.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/logf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/logf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/hypotf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/hypotf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/erff.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/erff.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/internal/errorfunctionf.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/modff.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/modff.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/logbd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/logbd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/log10d.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/log10d.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/internal/log1pmfd.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/ldexpd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/ldexpd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/lrintf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/lrintf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/fdimd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/fdimd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/coshf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/coshf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/y0d.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/y0d.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/internal/besseld.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/fminf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/fminf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/powd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/powd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/expm1d.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/expm1d.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/internal/signbitf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/internal/signbitf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/ilogbd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/ilogbd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/powf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/powf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/cosd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/cosd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/internal/trigd.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/llrintd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/llrintd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/atan2d.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/atan2d.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/coshd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/coshd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/exp2d.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/exp2d.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/hypotd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/hypotd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/ilogbf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/ilogbf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/log10f.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/log10f.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/internal/log1pmff.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/copysignd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/copysignd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/nextafterf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/nextafterf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/asinf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/asinf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/sinf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/sinf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/internal/trigf.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/erfd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/erfd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/internal/errorfunctiond.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/internal/signbitd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/internal/signbitd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/nearbyintd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/nearbyintd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/fmaf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/fmaf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/nanf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/nanf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/exp2f.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/exp2f.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/y1d.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/y1d.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/internal/besseld.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/lrintd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/lrintd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/tanf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/tanf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/internal/trigf.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/llrintf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/llrintf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/cosf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/cosf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/internal/trigf.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/llroundf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/llroundf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/roundd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/roundd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/expd.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/expd.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/ldexpf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/ldexpf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathd/internal/gammad.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/internal/gammad.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/internal/gammad.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/mathd/internal/trigd.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libmcs/libm/mathf/atanf.c"
+args = [
+    "-Ilibm/include",
+    "-Ilibm/common",
+    "-Ilibm/mathd/internal",
+    "-Ilibm/mathf/internal",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libmcs/libm/mathf/atanf.c",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/math.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/include/internal_config.h",
+    "/home/coder/Documents/GitHub/libmcs/libm/common/tools.h",
+]
