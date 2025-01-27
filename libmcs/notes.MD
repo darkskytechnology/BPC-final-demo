@@ -30,9 +30,9 @@ demo
 
 # Examples 
 
-(lib/mathf/acosf)[lib_mathf_acosf.jpg] C and Rust source comparison 
-(lib/mathf/rintf)[lib_mathf_rinf.jpg] C and Rust source comparison
-(lib/mathd/atan2d)[lib_mathd_atan2d.jpg] C and Rust source comparison
+- lib/mathf/acosf ![lib_mathf_acosf.jpg](lib_mathf_acosf.jpg): C and Rust source comparison
+- lib/mathf/rintf ![lib_mathf_rinf.jpg](lib_mathf_rinf.jpg): C and Rust source comparison
+- lib/mathd/atan2d ![lib_mathd_atan2d.jpg](lib_mathd_atan2d.jpg): C and Rust source comparison
 
 
 
