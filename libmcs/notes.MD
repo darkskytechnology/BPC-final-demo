@@ -5,7 +5,7 @@ https://gitlab.com/gtd-gmbh/libmcs
 
 # Translated Rust source
 
-rust_libmcs.tgz
+[rust_libmcs.tgz](rust_libmcs.tgz)
 
 # Project build steps
 
@@ -30,14 +30,10 @@ demo
 
 # Examples 
 
-`lib/mathf/acosf C and Rust source comparison`
-lib_mathf_acosf.jpg
+[lib/mathf/acosf](lib_mathf_acosf.jpg) C and Rust source comparison 
+[lib/mathf/rintf](lib_mathf_rinf.jpg) C and Rust source comparison
+[lib/mathd/atan2d](lib_mathd_atan2d.jpg) C and Rust source comparison
 
-`lib/mathf/rintf C and Rust source comparison`
-lib_mathf_rinf.jpg
-
-`lib/mathd/atan2d C and Rust source comparison`
-lib_mathd_atan2d.jpg
 
 
 
