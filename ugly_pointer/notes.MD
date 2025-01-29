@@ -23,7 +23,7 @@ BPC_LOG=info bpc-translate translate -m /home/coder/Documents/GitHub/demo/lifted
 
 # Video demonstration
 
-demo
+[ugly_pointer.mp4](ugly_pointer.mp4)
 
 # Examples 
 
