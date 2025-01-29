@@ -1,7 +1,7 @@
 # Project source
 
-Project comes from [geeksforgeeks.org](https://www.geeksforgeeks.org/rock-paper-scissor-in-c/)
-[rock_paper_scissors.c](rock_paper_scissors.c)
+[rock_paper_scissors.c](rock_paper_scissors.c) (
+Project comes from [geeksforgeeks.org](https://www.geeksforgeeks.org/rock-paper-scissor-in-c/))
 
 
 # Translated Rust source
