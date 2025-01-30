@@ -28,7 +28,7 @@ BPC_LOG=info bpc-translate translate -m /home/coder/Documents/GitHub/demo/lifted
 
 # Examples 
 
-[hangman](hangman.png) C and Rust comparison
+[hangman](hangman.jpg) C and Rust comparison
 
 
 
