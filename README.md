@@ -7,6 +7,7 @@ Welcome to the Bulletproof Code (BPC) final demonstration translation example re
 | [rock paper scissors](https://github.com/darkskytechnology/BPC-final-demo/blob/main/rock_paper_scissors/notes.MD) | Single source file | Translates after a few rounds of refactoring  | ✅ |
 | [hangman game](https://github.com/darkskytechnology/BPC-final-demo/blob/main/hangman/notes.MD)  | Single source file  | Required one manual edit for lowercase bounds checking  | ✅ |
 | [snake and ladder game](https://github.com/darkskytechnology/BPC-final-demo/blob/main/snake_and_ladder/notes.MD)  | Single source file  | Required one manual edit to add a dependency in Cargo.toml and also and underflow check  | ✅ |
+| [sorting algorithms](https://github.com/darkskytechnology/BPC-final-demo/blob/main/sorting/notes.MD)  | Single source file  | Translates after a few rounds of refactoring  | ✅ |
 | [snake and ladder game](https://github.com/darkskytechnology/BPC-final-demo/blob/main/snake_and_ladder/notes.MD)  | Single source file  | Required one manual edit to add a dependency in Cargo.toml and also and underflow check  | ❌ |
 
 
