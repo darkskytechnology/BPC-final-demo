@@ -1,0 +1,79 @@
+root = "/home/coder/Documents/GitHub/sutils"
+compiler = "/usr/bin/gcc"
+ignores = ["/home/coder/Documents/GitHub/sutils/common.h"]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/sutils/volume.c"
+args = [
+    "-I/usr/local/include",
+    "-D_POSIX_C_SOURCE=200112L",
+]
+depends = [
+    "/home/coder/Documents/GitHub/sutils/volume.c",
+    "/home/coder/Documents/GitHub/sutils/common.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/sutils/battery.c"
+args = [
+    "-I/usr/local/include",
+    "-D_POSIX_C_SOURCE=200112L",
+]
+depends = [
+    "/home/coder/Documents/GitHub/sutils/battery.c",
+    "/home/coder/Documents/GitHub/sutils/common.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/sutils/narg.c"
+args = [
+    "-I/usr/local/include",
+    "-D_POSIX_C_SOURCE=200112L",
+]
+depends = ["/home/coder/Documents/GitHub/sutils/narg.c"]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/sutils/temp.c"
+args = [
+    "-I/usr/local/include",
+    "-D_POSIX_C_SOURCE=200112L",
+]
+depends = [
+    "/home/coder/Documents/GitHub/sutils/temp.c",
+    "/home/coder/Documents/GitHub/sutils/common.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/sutils/exist.c"
+args = [
+    "-I/usr/local/include",
+    "-D_POSIX_C_SOURCE=200112L",
+]
+depends = ["/home/coder/Documents/GitHub/sutils/exist.c"]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/sutils/clock.c"
+args = [
+    "-I/usr/local/include",
+    "-D_POSIX_C_SOURCE=200112L",
+]
+depends = [
+    "/home/coder/Documents/GitHub/sutils/clock.c",
+    "/home/coder/Documents/GitHub/sutils/common.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/sutils/essid.c"
+args = [
+    "-I/usr/local/include",
+    "-D_POSIX_C_SOURCE=200112L",
+]
+depends = ["/home/coder/Documents/GitHub/sutils/essid.c"]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/sutils/uq.c"
+args = [
+    "-I/usr/local/include",
+    "-D_POSIX_C_SOURCE=200112L",
+]
+depends = ["/home/coder/Documents/GitHub/sutils/uq.c"]
