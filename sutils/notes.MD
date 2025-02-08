@@ -28,8 +28,10 @@ BPC_LOG=info bpc-translate translate -m /home/coder/Documents/GitHub/demo/lifted
 
 | Binary  | Compiles? | Executes? | Accurancy? | Video |
 |---------|-----------|-----------|------------|-------|
+| battery   |  ❌  included extensive use of optarg and unsafe sections - discarded |   ❌       |   ❌|   ❌ |
 | clock   |  ❌ Compiles after a double import is manually removed for `use std::io::Write;`.  | ✅        | ✅  | [clock_run.mp4](clock_run.mp4) |
 | exist   |  ✅    | ✅        |  ✅ | [exist_run.mp4](exist_run.mp4) |
 | narg   |  ✅   | ✅        |  ✅  | [narg_run.mp4](narg_run.mp4) |
 | temp   |  ✅   | ✅        |  ❌ The translation attempts to use format.replace as a format string substitution, but that will not work in Rust. The format statement has to be edited from the println so that the proper values are substituded in.  | [temp_run.mp4](temp_run.mp4) |
 | uq   |  ❌ Compiles after a double import is manually removed for `use std::io::Write;`.  | ✅        | ✅  | [uq_run.mp4](uq_run.mp4) |
+| volume   |  ❌  included use of an unstable crate - discarded |   ❌       |   ❌ |   ❌ |
