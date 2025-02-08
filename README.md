@@ -8,6 +8,7 @@ Welcome to the Bulletproof Code (BPC) final demonstration translation example re
 | [hangman game](https://github.com/darkskytechnology/BPC-final-demo/blob/main/hangman/notes.MD)  | Single source file  | Translates cleanly on first pass  | ✅ |
 | [snake and ladder game](https://github.com/darkskytechnology/BPC-final-demo/blob/main/snake_and_ladder/notes.MD)  | Single source file  | Required one manual edit to add a dependency in Cargo.toml and also and underflow check  | ✅ |
 | [sorting algorithms](https://github.com/darkskytechnology/BPC-final-demo/blob/main/sorting/notes.MD)  | Single source file  | Translates cleanly on first pass  | ✅ |
+| [ugly pointer](https://github.com/darkskytechnology/BPC-final-demo/blob/main/ugly_pointer/notes.MD) | Single source file | Translates cleanly on first pass  | ✅ |
 | [snake and ladder game](https://github.com/darkskytechnology/BPC-final-demo/blob/main/snake_and_ladder/notes.MD)  | Single source file  | Required one manual edit to add a dependency in Cargo.toml and also and underflow check  | ❌ |
 
 
