@@ -11,6 +11,11 @@ Welcome to the Bulletproof Code (BPC) final demonstration translation example re
 | [ugly pointer](https://github.com/darkskytechnology/BPC-final-demo/blob/main/ugly_pointer/notes.MD) | Single source file | Translates cleanly on first pass  | ✅ |
 | [sutils](https://github.com/darkskytechnology/BPC-final-demo/blob/main/sutils/notes.MD)  | Multiple binary targets  | TBD  | ❌ |
 
+## Acknowledgment of Support and Disclaimer
+**Support:** This material is based upon work supported by the Defense Advanced Research Projects Agency (DARPA) under Small Business Innovative Research (SBIR) Contract numbers HR001122C0048/HR001123C0078.
+
+**Disclaimer:** Any opinions, findings and conclusions or recommendations expressed in this material are those of the 
+author(s) and do not necessarily reflect the views of DARPA. 
 
 ---
 
