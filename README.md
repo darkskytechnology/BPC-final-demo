@@ -6,7 +6,7 @@ Welcome to the Bulletproof Code (BPC) final demonstration translation example re
 |-------|-----|--------------|------------|
 | [rock paper scissors](https://github.com/darkskytechnology/BPC-final-demo/blob/main/rock_paper_scissors/notes.MD) | Single source file | Translates cleanly on first pass  | ✅ |
 | [hangman game](https://github.com/darkskytechnology/BPC-final-demo/blob/main/hangman/notes.MD)  | Single source file  | Translates cleanly on first pass  | ✅ |
-| [snake and ladder game](https://github.com/darkskytechnology/BPC-final-demo/blob/main/snake_and_ladder/notes.MD)  | Single source file  | Required one manual edit to add a dependency in Cargo.toml and also and underflow check  | ✅ |
+| [snake and ladder game](https://github.com/darkskytechnology/BPC-final-demo/blob/main/snake_and_ladder/notes.MD)  | Single source file  | Compiles cleanly after three refactoring iterations, but requires one manual edit to add an underflow check that is required for runtime safety.  | ✅ |
 | [sorting algorithms](https://github.com/darkskytechnology/BPC-final-demo/blob/main/sorting/notes.MD)  | Single source file  | Translates cleanly on first pass  | ✅ |
 | [ugly pointer](https://github.com/darkskytechnology/BPC-final-demo/blob/main/ugly_pointer/notes.MD) | Single source file | Translates cleanly on first pass  | ✅ |
 | [snake and ladder game](https://github.com/darkskytechnology/BPC-final-demo/blob/main/snake_and_ladder/notes.MD)  | Single source file  | Required one manual edit to add a dependency in Cargo.toml and also and underflow check  | ❌ |
