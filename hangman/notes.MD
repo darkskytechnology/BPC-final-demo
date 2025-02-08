@@ -24,7 +24,8 @@ BPC_LOG=info bpc-translate translate -m /home/coder/Documents/GitHub/demo/lifted
 
 # Video demonstration
 
-[Clean translation no runtime errors](hangman.mp4) [Clean translation with runtime errors](hangman_runtime_error.mp4) 
+- [Clean translation no runtime errors](hangman.mp4) 
+- [Clean translation with runtime errors](hangman_runtime_error.mp4) 
 
 # Examples 
 
