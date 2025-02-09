@@ -1,0 +1,13 @@
+root = "/home/coder/Documents/GitHub/sutils"
+compiler = "/usr/bin/gcc"
+ignores = [
+	"/home/coder/Documents/GitHub/sutils/common.h"
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/sutils/essid.c"
+args = [
+    "-I/usr/local/include",
+    "-D_POSIX_C_SOURCE=200112L",
+]
+depends = ["/home/coder/Documents/GitHub/sutils/essid.c"]

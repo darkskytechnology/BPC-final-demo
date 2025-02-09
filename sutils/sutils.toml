@@ -1,6 +1,8 @@
 root = "/home/coder/Documents/GitHub/sutils"
 compiler = "/usr/bin/gcc"
-ignores = ["/home/coder/Documents/GitHub/sutils/common.h"]
+ignores = [
+	"/home/coder/Documents/GitHub/sutils/common.h",
+	"/home/coder/Documents/GitHub/sutils/essid.c"]
 
 [[files]]
 source = "/home/coder/Documents/GitHub/sutils/volume.c"
@@ -61,14 +63,6 @@ depends = [
     "/home/coder/Documents/GitHub/sutils/clock.c",
     "/home/coder/Documents/GitHub/sutils/common.h",
 ]
-
-[[files]]
-source = "/home/coder/Documents/GitHub/sutils/essid.c"
-args = [
-    "-I/usr/local/include",
-    "-D_POSIX_C_SOURCE=200112L",
-]
-depends = ["/home/coder/Documents/GitHub/sutils/essid.c"]
 
 [[files]]
 source = "/home/coder/Documents/GitHub/sutils/uq.c"
