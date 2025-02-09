@@ -32,13 +32,13 @@ BPC_LOG=info bpc-translate translate -m /home/coder/Documents/GitHub/demo/lifted
 # Video demonstration
 
 - [sutils.mp4](sutils.mp4) (Excludes essid)
-- [essid_translate_run.mp4] (Essid alone)
+- [essid_translate_run.mp4](essid_translate_run.mp4) (Essid alone)
 
 | Binary  | Compiles? | Executes? | Accurancy? | Video |
 |---------|-----------|-----------|------------|-------|
-| battery   |  ✅  | ✅    |   A change has to be made to replace the CONST derived from a global variable to enable index-based replacement. Not tested on a computer with a battery, but appears correct following the formatting change.   [battery_run.mp4](battery_run.mp4) |
+| battery   |  ✅  | ✅    |  ❌  A change has to be made to replace the `CONST` derived from a global variable to enable index-based replacement. Not tested on a computer with a battery, but appears correct following the small manual formatting change. |  [battery_run.mp4](battery_run.mp4) |
 | clock   |  ❌ Compiles after a dependency for `getopts` is added  | ✅        | ✅  | [clock_run.mp4](clock_run.mp4) |
-| essid   |  ✅    | ✅        |  ❌ Requires a replacement of the UDP socket `let sock_fd = std::net::UdpSocket::bind("0.0.0.0:0").expect("Failed to create socket").as_raw_fd();` to `let sock_fd = unsafe {libc::socket(libc::AF_INET, libc::SOCK_DGRAM, 0)}; if sock_fd == -1 { eprintln!("Failed to create socket: {}" std::io::Error::last_os_error()); std::process::exit(libc::EXIT_FAILURE);}` | [essid_translate_run.mp4](essid_translate_run.mp4) |
+| essid   |  ✅    | ✅        |  ❌ Requires a replacement of the UDP socket `let sock_fd = std::net::UdpSocket::bind("0.0.0.0:0").expect("Failed to create socket").as_raw_fd();` to `let sock_fd = unsafe {libc::socket(libc::AF_INET, libc::SOCK_DGRAM, 0)}; if sock_fd == -1 { eprintln!("Failed to create socket: {}" std::io::Error::last_os_error()); std::process::exit(libc::EXIT_FAILURE);}` but executes correctly after. | [essid_translate_run.mp4](essid_translate_run.mp4) |
 | exist   |  ✅    | ✅        |  ✅ | [exist_run.mp4](exist_run.mp4) |
 | narg   |  ✅   | ✅        |  ✅  | [narg_run.mp4](narg_run.mp4) |
 | temp   |  ✅   | ✅        |  ❌ The translation attempts to add an index onto the end of the temperature path and also tries to use `print!("{}", format.replace("%f", &format!("{:.3}", temp / 1000.0)));` but replace doesn't respect formatting rules like printf-style placeholders. This executes correctly once the index and is removed and the print is changed to `print!("{:.3}", temp / 1000.0);`  | [temp_run.mp4](temp_run.mp4) |
