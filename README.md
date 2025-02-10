@@ -10,7 +10,7 @@ Welcome to the Bulletproof Code (BPC) final demonstration translation example re
 | [sorting algorithms](https://github.com/darkskytechnology/BPC-final-demo/blob/main/sorting/notes.MD)  | Single source file  | Translates cleanly on first pass  | ✅ |
 | [ugly pointer](https://github.com/darkskytechnology/BPC-final-demo/blob/main/ugly_pointer/notes.MD) | Single source file | Translates cleanly on first pass  | ✅ |
 | [sutils](https://github.com/darkskytechnology/BPC-final-demo/blob/main/sutils/notes.MD)  | Multiple binary targets  | Mixed results, but overall very positive. Three targets compiled and executed accurately without any intervention. Three more compiled and executed, but required minor adjustments to obtain runtime accuracy. One required a manual addition of a dependency to compile, but then executed accurately. One was unable to compile or execute without larger manual refactoring. See the [project page](https://github.com/darkskytechnology/BPC-final-demo/blob/main/sutils/notes.MD) for details.  | 🟡 |
-
+| [libmcs](https://github.com/darkskytechnology/BPC-final-demo/blob/main/libmcs/notes.MD)  | Library  | Mixed results. Code produced could serve as a good starting point for transitioning this into a Rust library, but due to lack of global context, building the complete library using the tool is not yet feasible. See the [project page](https://github.com/darkskytechnology/BPC-final-demo/blob/main/sutils/notes.MD) for details.  | 🟡 |
 ## Acknowledgment of Support and Disclaimer
 **Support:** This material is based upon work supported by the Defense Advanced Research Projects Agency (DARPA) under Small Business Innovative Research (SBIR) Contract numbers HR001122C0048/HR001123C0078.
 
