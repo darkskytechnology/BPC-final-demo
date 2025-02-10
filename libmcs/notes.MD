@@ -95,7 +95,9 @@ static inline double __j0_p(double x)
     return one + r / s;
 }
 
-``` is incorrectlly replaced with
+``` 
+
+is incorrectlly replaced with
 
 ```
 fn j0_p(_x: f64) -> f64 {
