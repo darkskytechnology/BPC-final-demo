@@ -104,3 +104,4 @@ fn j0_p(_x: f64) -> f64 {
     0.0
 }
 ```
+These static inline functions are not accounted for in the C 'function count' metrics which is why the number of generated rust functions is much higher.
