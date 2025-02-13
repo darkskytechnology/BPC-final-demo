@@ -1,0 +1,18 @@
+root = "/home/coder/Documents/GitHub/coreutils"
+compiler = "/usr/bin/gcc"
+ignores = []
+
+[[files]]
+source = "/home/coder/Documents/GitHub/coreutils/src/true.c"
+args = [
+    "_I.",
+    "_I./lib",
+    "_Ilib",
+    "_I./lib",
+    "_Isrc",
+    "_I./src",
+]
+depends = [
+    "/home/coder/Documents/GitHub/coreutils/src/true.c",
+]
+

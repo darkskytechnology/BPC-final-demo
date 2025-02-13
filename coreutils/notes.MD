@@ -24,5 +24,9 @@ BPC_LOG=info bpc-translate translate -m /home/coder/Documents/GitHub/demo/lifted
 
 | Binary  | Rust Source | Build File | Compiles? | Executes? | Accurancy? | Video |
 |---------|-----------|-----------|------------|-------|
-| cat without header files   | [Without headers](cat/coreutils_cat_without_includes.tgz) | [cat_without_headers.toml](cat/cat_without_includes.toml) | ❌  The [[bin]] target just needed to be added to Cargo.toml to compile | ✅    |  ✅   |  [cat_without_includes.mp4](cat/cat_without_includes.mp4) |
-| cat with header files   | [With headers](cat/coreutils_cat_with_includes.tgz) | [cat_with_headers.toml](cat/cat_with_includes.toml) | ❌   | ✅    |  ✅   |  [cat_with_includes.mp4](cat/cat_with_includes.mp4) |
+| cat  | [coreutils_cat.tgz](cat/coreutils_cat.tgz) | [cat.toml](cat/cat.toml) | ❌  The [[bin]] target just needed to be added to Cargo.toml to compile | ✅    |  ✅   |  [cat.mp4](cat/cat.mp4) |
+| true  | [coreutils_true.tgz](true/coreutils_true.tgz) | [true.toml](true/true.toml) |   ✅  | ✅    |  ✅   |  [true.mp4](true/true.mp4) |
+
+# Notes
+
+Fails to properly process details such as non-function related #defines.   
