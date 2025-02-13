@@ -21,11 +21,10 @@ BPC_LOG=info bpc-translate translate -m /home/coder/Documents/GitHub/demo/lifted
 ```
 
 # Video demonstration
-
-| Binary  | Rust Source | Build File | Compiles? | Executes? | Accurancy? | Video |
-|---------|-----------|-----------|------------|-------|
-| cat  | [coreutils_cat.tgz](cat/coreutils_cat.tgz) | [cat.toml](cat/cat.toml) | ❌  The [[bin]] target just needed to be added to Cargo.toml to compile | ✅    |  ✅   |  [cat.mp4](cat/cat.mp4) |
-| true  | [coreutils_true.tgz](true/coreutils_true.tgz) | [true.toml](true/true.toml) |   ✅  | ✅    |  ✅   |  [true.mp4](true/true.mp4) |
+| Binary  | Rust Source                                       | Build File                              | Compiles?                                                                    | Executes? | Accuracy? | Video                              |
+|---------|---------------------------------------------------|-----------------------------------------|-----------------------------------------------------------------------------|----------|-----------|------------------------------------|
+| cat     | [coreutils_cat.tgz](cat/coreutils_cat.tgz)        | [cat.toml](cat/cat.toml)                | ❌ The [[bin]] target just needed to be added to Cargo.toml to compile        | ✅        | ✅         | [cat.mp4](cat/cat.mp4)             |
+| true    | [coreutils_true.tgz](true/coreutils_true.tgz)      | [true.toml](true/true.toml)             | ✅                                                                             | ✅        | ✅         | [true.mp4](true/true.mp4)          |
 
 # Notes
 
