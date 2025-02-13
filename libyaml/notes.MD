@@ -31,12 +31,12 @@ BPC_LOG=info bpc-translate translate -m /home/coder/Documents/GitHub/demo/lifted
 | File  | C and Rust comparison |
 |-------|-----------------------|
 | api   | [api](api.png)        |
-| dumper | [dumper](dumper.png) |
+| dumper | [dumper](dumper.jpg) |
 | emitter | failed |
-| loader | [loader](loader.png) |
-| parser | [parser](parser.png) |
+| loader | [loader](loader.jpg) |
+| parser | [parser](parser.jpg) |
 | reader | [reader](reader.png) |
-| scanner | [scanner](scanner.png) |
+| scanner | [scanner](scanner.jpg) |
 | writer | [writer](writter.png) |
 
 # Notes
