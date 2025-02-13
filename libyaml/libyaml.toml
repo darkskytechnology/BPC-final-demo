@@ -1,0 +1,123 @@
+root = "/home/coder/Documents/GitHub/libyaml"
+compiler = "/usr/bin/gcc"
+ignores = []
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libyaml/src/api.c"
+args = [
+    "-DHAVE_CONFIG_H",
+    "-I.",
+    "-I../include",
+    "-I../include",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libyaml/src/api.c",
+    "/home/coder/Documents/GitHub/libyaml/src/yaml_private.h",
+    "/home/coder/Documents/GitHub/libyaml/include/config.h",
+    "/home/coder/Documents/GitHub/libyaml/include/yaml.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libyaml/src/writer.c"
+args = [
+    "-DHAVE_CONFIG_H",
+    "-I.",
+    "-I../include",
+    "-I../include",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libyaml/src/writer.c",
+    "/home/coder/Documents/GitHub/libyaml/src/yaml_private.h",
+    "/home/coder/Documents/GitHub/libyaml/include/config.h",
+    "/home/coder/Documents/GitHub/libyaml/include/yaml.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libyaml/src/dumper.c"
+args = [
+    "-DHAVE_CONFIG_H",
+    "-I.",
+    "-I../include",
+    "-I../include",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libyaml/src/dumper.c",
+    "/home/coder/Documents/GitHub/libyaml/src/yaml_private.h",
+    "/home/coder/Documents/GitHub/libyaml/include/config.h",
+    "/home/coder/Documents/GitHub/libyaml/include/yaml.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libyaml/src/parser.c"
+args = [
+    "-DHAVE_CONFIG_H",
+    "-I.",
+    "-I../include",
+    "-I../include",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libyaml/src/parser.c",
+    "/home/coder/Documents/GitHub/libyaml/src/yaml_private.h",
+    "/home/coder/Documents/GitHub/libyaml/include/config.h",
+    "/home/coder/Documents/GitHub/libyaml/include/yaml.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libyaml/src/emitter.c"
+args = [
+    "-DHAVE_CONFIG_H",
+    "-I.",
+    "-I../include",
+    "-I../include",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libyaml/src/emitter.c",
+    "/home/coder/Documents/GitHub/libyaml/src/yaml_private.h",
+    "/home/coder/Documents/GitHub/libyaml/include/config.h",
+    "/home/coder/Documents/GitHub/libyaml/include/yaml.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libyaml/src/scanner.c"
+args = [
+    "-DHAVE_CONFIG_H",
+    "-I.",
+    "-I../include",
+    "-I../include",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libyaml/src/scanner.c",
+    "/home/coder/Documents/GitHub/libyaml/src/yaml_private.h",
+    "/home/coder/Documents/GitHub/libyaml/include/config.h",
+    "/home/coder/Documents/GitHub/libyaml/include/yaml.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libyaml/src/loader.c"
+args = [
+    "-DHAVE_CONFIG_H",
+    "-I.",
+    "-I../include",
+    "-I../include",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libyaml/src/loader.c",
+    "/home/coder/Documents/GitHub/libyaml/src/yaml_private.h",
+    "/home/coder/Documents/GitHub/libyaml/include/config.h",
+    "/home/coder/Documents/GitHub/libyaml/include/yaml.h",
+]
+
+[[files]]
+source = "/home/coder/Documents/GitHub/libyaml/src/reader.c"
+args = [
+    "-DHAVE_CONFIG_H",
+    "-I.",
+    "-I../include",
+    "-I../include",
+]
+depends = [
+    "/home/coder/Documents/GitHub/libyaml/src/reader.c",
+    "/home/coder/Documents/GitHub/libyaml/src/yaml_private.h",
+    "/home/coder/Documents/GitHub/libyaml/include/config.h",
+    "/home/coder/Documents/GitHub/libyaml/include/yaml.h",
+]
