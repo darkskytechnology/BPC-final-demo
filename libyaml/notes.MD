@@ -1,6 +1,6 @@
 # Project source
 
-[libyaml GitHub project source](https://github.com/yaml/libyaml) [source after preprocessing](libyaml_after_preprocessing.tgz)
+[libyaml GitHub project source](https://github.com/yaml/libyaml) and [source after preprocessing](libyaml_after_preprocessing.tgz)
 
 # Project build steps
 
