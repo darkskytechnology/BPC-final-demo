@@ -37,7 +37,7 @@ BPC_LOG=info bpc-translate translate -m /home/coder/Documents/GitHub/demo/lifted
 | parser | [parser](parser.jpg) |
 | reader | [reader](reader.png) |
 | scanner | [scanner](scanner.jpg) |
-| writer | [writer](writter.png) |
+| writer | [writer](writer.png) |
 
 # Notes
 
